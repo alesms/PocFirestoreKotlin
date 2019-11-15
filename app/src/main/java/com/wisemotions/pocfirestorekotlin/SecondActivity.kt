@@ -14,5 +14,7 @@ class SecondActivity : AppCompatActivity() {
         val user_name = intent.getStringExtra("value")
         Toast.makeText(this, user_name.length.toString(), Toast.LENGTH_SHORT).show()
 
+        val pippo:String
+        
     }
 }
